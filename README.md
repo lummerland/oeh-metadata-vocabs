@@ -67,3 +67,5 @@ jobs:
   - `run: echo "PATH_PREFIX=oeh-metadata-vocabs-playground/" > .env.production` <- the `PATH_PREFIX` has to be set to **YOUR** repository name
 4. in your repository settings go to the "GitHub Pages" setting and select `gh-pages` as the branch your site is being built from. If it is not available yet, you might have to push something to your repo, so the GitHub-Action gets triggered or you can trigger it manually with going to "Actions" in the menubar, then select the workflow "Build /public and deploy..." and click "Run workflow". This way you can trigger the workflow automatically.
 5. after that your vocabulary will be automatically published every time a push to this repo is made.
+
+This is just another test :/

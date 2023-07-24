@@ -9,4 +9,9 @@
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2023-07-22"^^xsd:date ;
     dct:created "2023-07-22"^^xsd:date ;
+    skos:hasTopConcept <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> .
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> .
+
+<bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> a skos:Concept ;
+    skos:prefLabel "Lernort"@de ;
+    skos:topConceptOf <> .

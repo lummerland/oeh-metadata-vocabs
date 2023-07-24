@@ -6,6 +6,14 @@
   "prefLabel": {
     "de": "Lernort"
   },
+  "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/locationType/0d08a1e9-09d4-4024-9b5c-7e4028e28ce5",
+      "prefLabel": {
+        "de": "Kindergarten/-betreuung"
+      }
+    }
+  ],
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/locationType/",
     "title": {

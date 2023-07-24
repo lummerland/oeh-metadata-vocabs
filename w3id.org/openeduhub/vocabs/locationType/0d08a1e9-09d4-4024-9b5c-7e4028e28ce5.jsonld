@@ -1,28 +1,23 @@
 {
-  "id": "http://w3id.org/openeduhub/vocabs/locationType/bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe",
+  "id": "http://w3id.org/openeduhub/vocabs/locationType/0d08a1e9-09d4-4024-9b5c-7e4028e28ce5",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlocationType%2Fbdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlocationType%2Fbdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe",
+  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlocationType%2F0d08a1e9-09d4-4024-9b5c-7e4028e28ce5",
+  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlocationType%2F0d08a1e9-09d4-4024-9b5c-7e4028e28ce5",
   "prefLabel": {
-    "de": "Lernort"
+    "de": "Kindergarten/-betreuung"
   },
-  "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/locationType/0d08a1e9-09d4-4024-9b5c-7e4028e28ce5",
-      "prefLabel": {
-        "de": "Kindergarten/-betreuung"
-      }
+  "broader": {
+    "id": "http://w3id.org/openeduhub/vocabs/locationType/bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe",
+    "prefLabel": {
+      "de": "Lernort"
     }
-  ],
+  },
   "inScheme": {
     "id": "http://w3id.org/openeduhub/vocabs/locationType/",
     "title": {
       "de": "Typ eines Ortes, einer Einrichtung oder Organisation",
       "en": "Type of place, institution or organisation"
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/locationType/"
   },
   "@context": {
     "id": "@id",

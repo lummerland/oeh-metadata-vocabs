@@ -9,7 +9,7 @@
     dct:creator "<https://wirlernenonline.de>" ;
     dct:created "2023-07-22"^^xsd:date ;
     dct:created "2023-07-22"^^xsd:date ;
-    skos:hasTopConcept <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> ;
+    skos:hasTopConcept <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe>, <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     dct:license <http://creativecommons.org/publicdomain/zero/1.0/> .
 
 <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> a skos:Concept ;
@@ -80,4 +80,14 @@
 <F9330774-7954-405a-8e88-055422c25609> a skos:Concept ;
     skos:prefLabel "nicht-staatlicher Bildungsanbieter"@de ;
     skos:broader <bdc2d9f1-bef6-4bf4-844d-4efc1c99ddbe> ;
+    skos:inScheme <> .
+
+<B9908ee6-9b97-4b88-bc6e-abb17b47b61f> a skos:Concept ;
+    skos:prefLabel "Einrichtungen & Organisationen"@de ;
+    skos:narrower <E7e2c01c-6076-496d-a21d-ca527b016016> ;
+    skos:topConceptOf <> .
+
+<E7e2c01c-6076-496d-a21d-ca527b016016> a skos:Concept ;
+    skos:prefLabel "Forschungseinrichtung"@de ;
+    skos:broader <B9908ee6-9b97-4b88-bc6e-abb17b47b61f> ;
     skos:inScheme <> .

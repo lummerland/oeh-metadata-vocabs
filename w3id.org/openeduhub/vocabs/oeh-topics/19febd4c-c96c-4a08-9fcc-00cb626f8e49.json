@@ -71,12 +71,6 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/80899084-6d80-43da-80a9-8bea43b50656",
-      "prefLabel": {
-        "de": "Märchen und Sagen"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/81dbdf0e-c20d-481e-a0f9-ebbbb0abc2bd",
       "prefLabel": {
         "de": "Natur, Umwelt und Umweltschutz"
@@ -116,6 +110,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a3b2e4f2-a063-4c32-b39a-98a36e3f7b4c",
       "prefLabel": {
         "de": "Aussehen und Charakter"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c5805aaf-e973-4743-af07-aa69250d8337",
+      "prefLabel": {
+        "de": "Feste und Brauchtum"
       }
     },
     {

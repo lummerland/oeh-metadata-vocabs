@@ -7,9 +7,27 @@
     "de": "Interkulturelles"
   },
   "definition": {
-    "de": "Zur spanischen Sprache gehören auch die Menschen und ihre Kultur.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte, Traditionen und Bräuche. Du willst alles das kennenlernen oder mehr darüber wissen? Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."
+    "de": "Zur spanischen Sprache gehören auch die Menschen und ihre Kulturen.  Sie leben in Argentinien, Bolivien, Chile, Kolumbien, Costa Rica, Kuba, der Dominikanischen Republik, Ecuador, El Salvador, Guatemala, Honduras, Mexiko, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Uruguay, Venezuela, Äquatorialguinea und Spanien. Jedes einzelne dieser 21 Länder, in denen Spanisch offizielle Sprache ist, hat seine Geschichte und pflegt eigene Bräuche und Traditionen. Du willst alles das kennenlernen oder mehr darüber wissen? Auch über Politik, Gesellschaft und Zeitgeschehen. Dann findest du hier alle Inhalte, die dir die spanischsprachige Welt noch näher bringen."
   },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/087fcc96-f7be-4de3-9835-63fadf79e90f",
+      "prefLabel": {
+        "de": "Bilingualismus und Mehrsprachigkeit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/36dc1142-0454-45b2-bc18-25f4b9b36904",
+      "prefLabel": {
+        "de": "Umwelt, Klimawandel und Zukunftsentwürfe"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4f955835-0719-4e17-bc84-749fe978ebfb",
+      "prefLabel": {
+        "de": "Politik, Gesellschaft und Multikulturalität"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/57286ea3-4a6f-40c0-9725-25ff7885ca05",
       "prefLabel": {
@@ -31,7 +49,31 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/78ccb153-8a8e-4ff4-92b6-36aa4abe311a",
       "prefLabel": {
-        "de": "Sport"
+        "de": "Sport und Gesundheit"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7f1e31b8-8898-4fac-901b-6d48c776709c",
+      "prefLabel": {
+        "de": "Globales"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/809e6e11-647d-439c-a0bd-9ca96f93c688",
+      "prefLabel": {
+        "de": "Flucht und Migration"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8f8a47eb-f839-47d9-9c4f-fd0ef8e00096",
+      "prefLabel": {
+        "de": "Tourismus"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/924b2d1c-506d-4298-b93a-261361baf317",
+      "prefLabel": {
+        "de": "Digitalisierung und Medien"
       }
     },
     {
@@ -47,9 +89,27 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a380aaab-0979-49e1-b833-617a042b66bd",
+      "prefLabel": {
+        "de": "Kinderarbeit und Kinderarmut"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/baae6af6-5cb1-4f76-962f-90826d8a69d8",
       "prefLabel": {
         "de": "Literatur, Film und Theater"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c49e1e95-7ed9-432f-80f0-a6bef4e3ad14",
+      "prefLabel": {
+        "de": "Frauen in der spanischsprachigen Welt"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ca21b449-2f49-4e5c-b291-cad79a01b236",
+      "prefLabel": {
+        "de": "Jugend und Jugendkultur"
       }
     },
     {
@@ -59,15 +119,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fab7ae6a-2a05-4b78-9267-a1bffa683c6c",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d40edd49-a592-4c49-941b-40d2d6741e0d",
       "prefLabel": {
-        "de": "Bachillerato"
+        "de": "Indigene Völker"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fb12bfc5-aa98-4126-a883-27a441459a24",
       "prefLabel": {
-        "de": "Länder, Leute und Begegnungen"
+        "de": "Länder, Regionen und Städte"
       }
     }
   ],

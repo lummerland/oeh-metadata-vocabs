@@ -11,6 +11,12 @@
   },
   "narrower": [
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0acedcc3-d943-4fa4-9b9d-11e1cc94cdf7",
+      "prefLabel": {
+        "de": "Umwelt, Klimawandel und Zukunftsentwürfe"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/27b0333c-7cfe-4be4-a648-e199ac950467",
       "prefLabel": {
         "de": "Kunst und Architektur"
@@ -44,6 +50,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7d3c8cd3-6b17-4554-b854-c33a045a153b",
       "prefLabel": {
         "de": "Geschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/80899084-6d80-43da-80a9-8bea43b50656",
+      "prefLabel": {
+        "de": "Märchen und Sagen"
       }
     },
     {

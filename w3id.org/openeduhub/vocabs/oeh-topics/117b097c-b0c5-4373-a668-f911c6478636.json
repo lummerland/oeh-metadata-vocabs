@@ -7,19 +7,19 @@
     "de": "Entwicklung der Lebewesen"
   },
   "definition": {
-    "de": "In dieser Untersammlung werden Unterrichtsmaterialien zum Thema \"Entwicklung der Lebewesen\" gesammelt. Dabei gibt es verschiedene Untersammlungen für die Entwicklung der Pflanzen, der Tiere und dabei auch speziell des Menschen."
+    "de": "In dieser Untersammlung werden Unterrichtsmaterialien zum Thema \"Entwicklung der Lebewesen\" gesammelt. In dieser Sammlung finden sich auch Materialien zu Fossilien, Brückentieren und -pflanzen sowie Lebenden Fossilien. In den Untersammlungen finden sich Materialien zur Entwicklung der Pflanzen, der Tiere und dabei auch speziell des Menschen."
   },
   "narrower": [
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c30f8d2a-f28f-47ad-9ba0-dc2041cfb17a",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1d7cfc21-8c8c-49bf-bbb5-b2597d18039a",
       "prefLabel": {
-        "de": "Tiere"
+        "de": "Evolution des Menschen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/e18ffe7d-d185-4f0d-9438-6a809a9f90a8",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/9fdc715a-bc52-4e9a-b999-08690777dcc0",
       "prefLabel": {
-        "de": "Pflanzen"
+        "de": "Zeugen der Evolution"
       }
     }
   ],

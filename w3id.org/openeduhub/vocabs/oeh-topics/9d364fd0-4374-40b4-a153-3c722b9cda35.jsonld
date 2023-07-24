@@ -29,6 +29,12 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/159be1df-7e0a-426e-b7fd-6f14864d171f",
+      "prefLabel": {
+        "de": "Bioethik"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3b3a13c5-8522-4e57-ab40-6fb043eae0d6",
       "prefLabel": {
         "de": "Gemeinschaft, Konflikte und Diversität"

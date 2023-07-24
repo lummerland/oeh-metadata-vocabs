@@ -17,6 +17,18 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/07109ffc-1ed7-46be-a297-ed3ba4eca005",
+      "prefLabel": {
+        "de": "Deutsch für den Beruf"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/1174347c-2476-481b-9fb3-15fc16046a6b",
+      "prefLabel": {
+        "de": "Alphabetisierung und Grundbildung"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/12c4cd99-9804-44b5-a81b-e9900a0e3d42",
       "prefLabel": {
         "de": "Grammatik"
@@ -37,7 +49,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/79589113-2330-4a46-9104-6da9edf227ae",
       "prefLabel": {
-        "de": "Methodisches"
+        "de": "Didatisches und Methodisches"
       }
     },
     {

@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c3cd2a3f-5a9f-434e-a1d4-1c5039083d79",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fc3cd2a3f-5a9f-434e-a1d4-1c5039083d79",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2Fc3cd2a3f-5a9f-434e-a1d4-1c5039083d79",
   "prefLabel": {
     "de": "Der Mensch und die Frage nach dem Selbst"
   },
@@ -10,12 +8,6 @@
     "de": "„Erkenne dich selbst!” stand über dem Eingang des Apollo-Tempels in Delphi.Der Vorsokratiker Thales soll diesen Spruch geprägt haben. Selbsterkenntnis zielt auf die Eigenart und Bedingtheit des „Ich”, seine Anlagen, Fähigkeiten, Schwächen und Grenzen."
   },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3994cf1c-abcf-4446-a5fe-2da890f8c8a7",
-      "prefLabel": {
-        "de": "Umgang mit Zeit und Freizeit"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6769ce5e-5e66-4293-ac30-bd482f4c306f",
       "prefLabel": {
@@ -26,6 +18,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/956d4eaf-a03c-4337-ad22-c60df0a5b1a5",
       "prefLabel": {
         "de": "Aspekte und Entwicklung der menschlichen Identität"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3994cf1c-abcf-4446-a5fe-2da890f8c8a7",
+      "prefLabel": {
+        "de": "Umgang mit Zeit und Freizeit"
       }
     }
   ],
@@ -43,20 +41,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/450"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "https://schema.org/",
+    "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -87,7 +94,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -101,7 +117,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -109,9 +127,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -129,9 +144,16 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

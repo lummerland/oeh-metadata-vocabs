@@ -1,12 +1,22 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/8d87ef86-bb5e-4dbe-b1ee-8863369b8700",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F8d87ef86-bb5e-4dbe-b1ee-8863369b8700",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F8d87ef86-bb5e-4dbe-b1ee-8863369b8700",
   "prefLabel": {
     "de": "Jesus"
   },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d552fa8b-01a3-41ce-b363-aa8745e087ee",
+      "prefLabel": {
+        "de": "Nachfolge"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a18a6fd2-0c9e-45cf-95ff-a96084f1fea4",
+      "prefLabel": {
+        "de": "Jesu Tod und Auferstehung"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4ac9d143-8a6e-4654-abc7-e083943883e1",
       "prefLabel": {
@@ -20,27 +30,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a18a6fd2-0c9e-45cf-95ff-a96084f1fea4",
-      "prefLabel": {
-        "de": "Jesu Tod und Auferstehung"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a5e96913-ce95-49df-82e2-d61147c96b23",
-      "prefLabel": {
-        "de": "Jesus in seiner Zeit und Umwelt"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/be0cee07-387b-4b96-99f7-32f243be2683",
       "prefLabel": {
         "de": "Person und Botschaft Jesu im Vergleich mit anderen Religionen"
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d552fa8b-01a3-41ce-b363-aa8745e087ee",
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a5e96913-ce95-49df-82e2-d61147c96b23",
       "prefLabel": {
-        "de": "Nachfolge"
+        "de": "Jesus in seiner Zeit und Umwelt"
       }
     }
   ],
@@ -55,20 +53,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/520"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "https://schema.org/",
+    "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -99,7 +106,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -113,7 +129,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -121,9 +139,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -141,9 +156,16 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

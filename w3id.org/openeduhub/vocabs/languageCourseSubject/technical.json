@@ -1,29 +1,42 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/languageCourseSubject/technical",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2FlanguageCourseSubject%2Ftechnical",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2FlanguageCourseSubject%2Ftechnical",
   "prefLabel": {
     "de": "Fachsprache"
   },
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/languageCourseSubject/",
-    "title": {
-      "de": "Arten von Sprachkursen",
-      "en": "Subjects of language courses"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageCourseSubject/",
+      "title": {
+        "de": "Arten von Sprachkursen",
+        "en": "Subjects of language courses"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/languageCourseSubject/"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageCourseSubject/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/languageCourseSubject/",
+      "title": {
+        "de": "Arten von Sprachkursen",
+        "en": "Subjects of language courses"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "https://schema.org/",
+    "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -54,7 +67,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -68,7 +90,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -76,9 +100,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -96,9 +117,16 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

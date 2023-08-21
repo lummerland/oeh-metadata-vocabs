@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5b63fe50-7522-447b-850f-b11078d905b8",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F5b63fe50-7522-447b-850f-b11078d905b8",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F5b63fe50-7522-447b-850f-b11078d905b8",
   "prefLabel": {
     "de": "Ländergeschichte"
   },
@@ -10,6 +8,24 @@
     "de": "Hier findest du Materialien über die Länder und Kontinente der Welt und ihre Beziehungen zu Deutschland. Du findest Materialien zu China und Japan, zu Israel oder Russland."
   },
   "narrower": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b1498f27-ca3a-4f81-85a5-6c03d29cd667",
+      "prefLabel": {
+        "de": "Afrika"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/47c02958-81d8-4b45-85a7-731097f656ca",
+      "prefLabel": {
+        "de": "Europa"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a5b8de49-e46a-4a51-a507-c88c6c90bb80",
+      "prefLabel": {
+        "de": "Mittel- und Südamerika"
+      }
+    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0be58d12-4352-4338-a314-135fccc1edb3",
       "prefLabel": {
@@ -23,27 +39,9 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/47c02958-81d8-4b45-85a7-731097f656ca",
-      "prefLabel": {
-        "de": "Europa"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/83b6a17e-1a94-4f2f-8c7c-a22e8df1e681",
       "prefLabel": {
         "de": "Nordamerika"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a5b8de49-e46a-4a51-a507-c88c6c90bb80",
-      "prefLabel": {
-        "de": "Mittel- und Südamerika"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b1498f27-ca3a-4f81-85a5-6c03d29cd667",
-      "prefLabel": {
-        "de": "Afrika"
       }
     }
   ],
@@ -58,20 +56,29 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/240"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "https://schema.org/",
+    "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -102,7 +109,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -116,7 +132,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -124,9 +142,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -144,9 +159,16 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

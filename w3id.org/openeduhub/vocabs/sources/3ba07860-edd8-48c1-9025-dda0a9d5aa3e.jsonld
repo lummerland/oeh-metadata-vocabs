@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/sources/3ba07860-edd8-48c1-9025-dda0a9d5aa3e",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F3ba07860-edd8-48c1-9025-dda0a9d5aa3e",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fsources%2F3ba07860-edd8-48c1-9025-dda0a9d5aa3e",
   "prefLabel": {
     "de": "Physik digital.de"
   },
@@ -12,21 +10,29 @@
       "de": "Youtube"
     }
   },
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/sources/",
-    "title": {
-      "de": "Liste von Quellen im Openeduhub"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sources/",
+      "title": {
+        "de": "Liste von Quellen im Openeduhub"
+      }
     }
-  },
-  "url": "https://www.youtube.com/channel/UCLFQOEC-dUaC5Qk6ccnHlcA",
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/sources/"
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "https://schema.org/",
+    "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -57,7 +63,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -71,7 +86,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -79,9 +96,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -99,9 +113,16 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

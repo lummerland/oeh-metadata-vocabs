@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/11bdb8a0-a9f5-4028-becc-cbf8e328dd4b",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F11bdb8a0-a9f5-4028-becc-cbf8e328dd4b",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Foeh-topics%2F11bdb8a0-a9f5-4028-becc-cbf8e328dd4b",
   "prefLabel": {
     "de": "Spanisch"
   },
@@ -10,12 +8,6 @@
     "de": "¡Bienvenidx a nuestro portal para enseñar y aprender español! Du bist Lehrer*in, Refendar*in, studierst Spanisch oder willst dein Spanisch verbessern? Dann bist du auf diesem Fachportal mit freien und kostenlosen Materialien für Spanisch genau richtig. Hier findest du neben sorgfältig ausgewählten Inhalten für den Präsenzunterricht, den Online-Unterricht oder das hybride Klassenzimmer, auch kurzweilige Materialien zum Selbstlernen und praktische Tools. Für jeden und jede ist etwas dabei und es soll noch viel mehr werden. Dafür brauchen wir deine Unterstützung."
   },
   "narrower": [
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/03a945d7-f446-4629-b23f-1918a63a4544",
-      "prefLabel": {
-        "de": "Rechtschreibung"
-      }
-    },
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/21c88efb-1af3-4658-aaec-747a0fdf8889",
       "prefLabel": {
@@ -26,12 +18,6 @@
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/66f30caf-e218-4802-9013-bdbbab22c19b",
       "prefLabel": {
         "de": "Interkulturelles"
-      }
-    },
-    {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/992f0da8-20a3-4fdf-85f1-bfd828dad744",
-      "prefLabel": {
-        "de": "Grammatik"
       }
     },
     {
@@ -47,6 +33,18 @@
       }
     },
     {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/992f0da8-20a3-4fdf-85f1-bfd828dad744",
+      "prefLabel": {
+        "de": "Grammatik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/03a945d7-f446-4629-b23f-1918a63a4544",
+      "prefLabel": {
+        "de": "Rechtschreibung"
+      }
+    },
+    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/f91f0a99-66bd-4cd2-aa39-82098958c16b",
       "prefLabel": {
         "de": "Methodisches"
@@ -58,23 +56,37 @@
       "id": "http://w3id.org/openeduhub/vocabs/discipline/20007"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
-    "title": {
-      "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e40e372-735c-4b17-bbf7-e827a5702b57",
+      "title": {
+        "de": "Taxonomie von Lehrplanthemen in WirLernenOnline"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "https://schema.org/",
+    "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -105,7 +117,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -119,7 +140,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -127,9 +150,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -147,9 +167,16 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

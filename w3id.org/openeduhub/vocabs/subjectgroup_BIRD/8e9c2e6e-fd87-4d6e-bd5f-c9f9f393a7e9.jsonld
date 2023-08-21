@@ -1,8 +1,6 @@
 {
   "id": "http://w3id.org/openeduhub/vocabs/subjectgroup_BIRD/8e9c2e6e-fd87-4d6e-bd5f-c9f9f393a7e9",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=w3id.org%2Fopeneduhub%2Fvocabs%2Fsubjectgroup_BIRD%2F8e9c2e6e-fd87-4d6e-bd5f-c9f9f393a7e9",
-  "inbox": "https://test.skohub.io/inbox?target=w3id.org%2Fopeneduhub%2Fvocabs%2Fsubjectgroup_BIRD%2F8e9c2e6e-fd87-4d6e-bd5f-c9f9f393a7e9",
   "prefLabel": {
     "de": "Sprach-, Kulturwissenschaften"
   },
@@ -11,24 +9,39 @@
       "id": "http://w3id.org/openeduhub/vocabs/hochschulfaechersystematik/n1"
     }
   ],
-  "inScheme": {
-    "id": "http://w3id.org/openeduhub/vocabs/subjectgroup_BIRD/",
-    "title": {
-      "de": "Fachgebiet (BIRD)",
-      "en": "Subjectgroup (BIRD)"
+  "inScheme": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/subjectgroup_BIRD/",
+      "title": {
+        "de": "Fachgebiet (BIRD)",
+        "en": "Subjectgroup (BIRD)"
+      }
     }
-  },
-  "topConceptOf": {
-    "id": "http://w3id.org/openeduhub/vocabs/subjectgroup_BIRD/"
-  },
+  ],
+  "inSchemeAll": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/subjectgroup_BIRD/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/subjectgroup_BIRD/",
+      "title": {
+        "de": "Fachgebiet (BIRD)",
+        "en": "Subjectgroup (BIRD)"
+      }
+    }
+  ],
   "@context": {
+    "@version": 1.1,
     "id": "@id",
     "type": "@type",
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "https://schema.org/",
+    "schema": "http://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -59,7 +72,16 @@
       "@container": "@language"
     },
     "altLabel": {
-      "@container": "@language"
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
     },
     "definition": {
       "@container": "@language"
@@ -73,7 +95,9 @@
     "notation": {
       "@container": "@set"
     },
-    "url": "schema:url",
+    "example": {
+      "@container": "@language"
+    },
     "narrower": {
       "@container": "@set"
     },
@@ -81,9 +105,6 @@
       "@container": "@set"
     },
     "relatedMatch": {
-      "@container": "@set"
-    },
-    "exactMatch": {
       "@container": "@set"
     },
     "narrowerTransitive": {
@@ -101,9 +122,16 @@
     "closeMatch": {
       "@container": "@set"
     },
-    "followers": "as:followers",
-    "inbox": "ldp:inbox",
+    "exactMatch": {
+      "@container": "@set"
+    },
     "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
       "@container": "@set"
     }
   }

@@ -51,7 +51,7 @@ jobs:
           -v $(pwd)/data:/app/data
           -v $(pwd)/.env:/app/.env
           -e GATSBY_RESPOSITORY_URL=https://github.com/skohub-io/skohub-docker-vocabs.git
-          skohub/skohub-vocabs-docker:latest
+        lummerland/skohub-vocabs-openeduhub:latest
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

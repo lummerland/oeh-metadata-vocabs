@@ -7,6 +7,9 @@
   "definition": {
     "de": "Hier findest du tolle Materialien zu wichtigem Wortschatz nach Themen geordnet."
   },
+  "notation": [
+    "2e8b863e-9e71-4c96-b281-e50c431815c3"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/4eb61065-adc0-4a98-857a-e0c898e9f718",

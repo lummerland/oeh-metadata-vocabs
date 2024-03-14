@@ -7,6 +7,9 @@
   "definition": {
     "de": "In dieser Sammlung finden sich Materialien zu dem ersten großen Reich der Eukaryoten: Den Pflanzen."
   },
+  "notation": [
+    "873d62a5-362b-4b58-a618-28d4dec06324"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/85280c59-c34f-49e9-ba9f-2541653dd359",

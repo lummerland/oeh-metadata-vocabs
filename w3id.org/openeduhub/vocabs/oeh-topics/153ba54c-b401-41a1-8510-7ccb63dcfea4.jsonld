@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Gott"
   },
+  "notation": [
+    "153ba54c-b401-41a1-8510-7ccb63dcfea4"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/39b9e5fa-23ff-4553-9a90-418b85fc1d80",

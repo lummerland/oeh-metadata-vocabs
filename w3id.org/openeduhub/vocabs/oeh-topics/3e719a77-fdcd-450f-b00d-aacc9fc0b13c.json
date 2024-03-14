@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Epochen der Musikgeschichte"
   },
+  "notation": [
+    "3e719a77-fdcd-450f-b00d-aacc9fc0b13c"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b51c3253-5ac9-4e6b-afb4-36af8ee81a42",
@@ -57,6 +60,12 @@
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/0e13faba-076c-450d-bbdc-61f0a8c79e44",
       "prefLabel": {
         "de": "Weltmusik"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/51654d80-1dc0-45fd-9ea5-3f7ee9c52ff8",
+      "prefLabel": {
+        "de": "Blues"
       }
     },
     {

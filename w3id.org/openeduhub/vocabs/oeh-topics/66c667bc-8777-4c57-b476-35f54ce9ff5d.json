@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Religion"
   },
+  "notation": [
+    "66c667bc-8777-4c57-b476-35f54ce9ff5d"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/22f6c61b-609b-44a5-88a8-1342b5256160",

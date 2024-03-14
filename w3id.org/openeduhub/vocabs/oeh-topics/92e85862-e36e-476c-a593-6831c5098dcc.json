@@ -7,6 +7,9 @@
   "definition": {
     "de": "hier findet ihr Materialien zur EU, der Handels- und Zahlungsbilanz und weltweiten Globalisierung"
   },
+  "notation": [
+    "92e85862-e36e-476c-a593-6831c5098dcc"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7322a839-3fcd-4937-99a0-1860d1b4a858",

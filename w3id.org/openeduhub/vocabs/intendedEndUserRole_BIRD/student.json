@@ -4,6 +4,15 @@
   "prefLabel": {
     "de": "Student/in"
   },
+  "related": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/intendedEndUserRole/learner",
+      "prefLabel": {
+        "de": "Lerner/in",
+        "en": "learner"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/intendedEndUserRole_BIRD/",

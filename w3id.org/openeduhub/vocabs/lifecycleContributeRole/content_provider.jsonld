@@ -5,6 +5,11 @@
     "de": "Materialbereitstellung",
     "en": "content provider"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/lom_role/content_provider"
+    }
+  ],
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/lifecycleContributeRole/",

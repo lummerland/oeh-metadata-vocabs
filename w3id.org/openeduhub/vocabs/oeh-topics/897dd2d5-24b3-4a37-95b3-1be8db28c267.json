@@ -7,6 +7,9 @@
   "definition": {
     "de": "Wie können wir (demokratisch) miteinander leben? Wie können sich alle am Gemeinwesen beteiligen? Wie werden die Grundrechte geschützt und wann werden sie eingeschränkt? Einige Themen des gesellschaftlichen Zusammenlebens finden sich in der politischen Bildung in vielfachen Zusammenhängen. In dieser Sammlung geht es um grundlegende Regelungen und Werte, aber auch (aktuelle) Herausforderungen und Konflikte von Demokratien."
   },
+  "notation": [
+    "897dd2d5-24b3-4a37-95b3-1be8db28c267"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/43de42f5-706e-4e84-8112-8d2b946ae089",

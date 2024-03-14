@@ -5,6 +5,11 @@
     "de": "technische Prüfung",
     "en": "technical validator"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/lom_role/technical_validator"
+    }
+  ],
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/lifecycleContributeRole/",

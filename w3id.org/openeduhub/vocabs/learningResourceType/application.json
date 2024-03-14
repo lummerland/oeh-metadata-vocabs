@@ -5,11 +5,6 @@
     "de": "Anwendung/Software",
     "en": "application"
   },
-  "altLabel": {
-    "de": [
-      "Softwareanwendung"
-    ]
-  },
   "exactMatch": [
     {
       "id": "https://w3id.org/kim/hcrt/application"

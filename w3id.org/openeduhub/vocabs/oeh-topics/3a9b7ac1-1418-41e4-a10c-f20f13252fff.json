@@ -7,6 +7,9 @@
   "definition": {
     "de": "Personen und Werke mit bedeutenden Gedanken zu Ethik und Philosophie in der Antike"
   },
+  "notation": [
+    "3a9b7ac1-1418-41e4-a10c-f20f13252fff"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/fc171dea-c37f-4617-8685-8abbd7ba79ed",

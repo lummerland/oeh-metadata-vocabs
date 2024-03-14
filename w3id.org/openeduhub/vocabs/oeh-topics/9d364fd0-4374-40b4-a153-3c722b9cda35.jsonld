@@ -7,6 +7,9 @@
   "definition": {
     "de": "Informationen, Unterrichtsmaterialien und mehr zu den Fächern Philosophie und Ethik"
   },
+  "notation": [
+    "9d364fd0-4374-40b4-a153-3c722b9cda35"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ddc4de42-64cd-4e34-9bfa-2f2ff9bbf75b",

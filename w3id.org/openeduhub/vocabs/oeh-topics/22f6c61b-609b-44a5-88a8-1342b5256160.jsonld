@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Religiosität und Welt(lichkeit)"
   },
+  "notation": [
+    "22f6c61b-609b-44a5-88a8-1342b5256160"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ec25551f-d1da-45a4-bbd2-48ce8170047d",

@@ -7,6 +7,9 @@
   "definition": {
     "de": "Hier reist du an die Grenzregionen Deutschlands, du findest hier tolle Materialien zu dendeutschen  Bundesländern und zu Stadtgeschichten."
   },
+  "notation": [
+    "19d8b5dc-a500-4ce6-a1e6-c98d63f975d9"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/2baef928-bc90-4992-807e-a6760b22e6a1",
@@ -15,15 +18,15 @@
       }
     },
     {
-      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6946d555-0b8d-4313-9c02-b27dc1739391",
-      "prefLabel": {
-        "de": "Stadtgeschichte"
-      }
-    },
-    {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/aebafb6a-7584-4ebb-913e-d7021f0e0856",
       "prefLabel": {
         "de": "Landesgeschichte"
+      }
+    },
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/6946d555-0b8d-4313-9c02-b27dc1739391",
+      "prefLabel": {
+        "de": "Stadtgeschichte"
       }
     }
   ],

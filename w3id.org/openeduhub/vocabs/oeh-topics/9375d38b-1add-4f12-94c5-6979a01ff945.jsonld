@@ -7,6 +7,9 @@
   "definition": {
     "de": "https://www.open.edu/openlearncreate/pluginfile.php/128162/local_olccategory/categoryimage/24/OEPS%20banner%20850px%20x%20398px.png"
   },
+  "notation": [
+    "9375d38b-1add-4f12-94c5-6979a01ff945"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ab745f73-1423-427d-a582-bbb42c13acf8",

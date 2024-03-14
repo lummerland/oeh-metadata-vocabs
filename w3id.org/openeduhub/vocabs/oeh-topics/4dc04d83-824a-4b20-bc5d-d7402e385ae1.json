@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Ethik"
   },
+  "notation": [
+    "4dc04d83-824a-4b20-bc5d-d7402e385ae1"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c6de9e8a-1595-4cb5-9f3f-bf8d2acd6e9f",

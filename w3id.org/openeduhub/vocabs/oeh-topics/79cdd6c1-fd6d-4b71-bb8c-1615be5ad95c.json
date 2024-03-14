@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Wirtschaft und Soziales"
   },
+  "notation": [
+    "79cdd6c1-fd6d-4b71-bb8c-1615be5ad95c"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/064f1836-5aae-46c3-ad05-5915c7bb604c",

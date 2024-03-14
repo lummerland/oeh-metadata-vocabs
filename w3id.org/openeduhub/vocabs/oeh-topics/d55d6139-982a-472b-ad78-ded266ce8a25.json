@@ -7,6 +7,9 @@
   "definition": {
     "de": "In dieser Sammlung finden sich grundlegende biologische Fakten, Methoden (die an die Schüler*innen im Biologieunterricht weitergegeben werden sollen) und verschiedene Möglichkeiten, anhand derer Schüler*innen Bewertungsstrategien entwickeln können."
   },
+  "notation": [
+    "d55d6139-982a-472b-ad78-ded266ce8a25"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a806de60-8abc-4859-9444-8930f9462180",

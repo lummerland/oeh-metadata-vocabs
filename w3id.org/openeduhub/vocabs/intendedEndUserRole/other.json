@@ -5,6 +5,11 @@
     "de": "andere",
     "en": "other"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/lom_intended_end_user_role/other"
+    }
+  ],
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/intendedEndUserRole/",

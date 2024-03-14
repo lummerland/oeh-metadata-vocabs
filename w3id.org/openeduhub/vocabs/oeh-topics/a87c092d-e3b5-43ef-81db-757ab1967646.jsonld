@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Open Educational Resources (OER)"
   },
+  "notation": [
+    "a87c092d-e3b5-43ef-81db-757ab1967646"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/b3911f32-db29-4e77-8053-6981d1e46ef3",

@@ -7,6 +7,9 @@
   "definition": {
     "de": "Welche Vorstellungen haben Menschen in Ethik & Philosophie von einem staatlichen bzw. gesellschaftlichen Zusammenleben entwickelt?"
   },
+  "notation": [
+    "0f254b88-55db-4960-8693-5671b568b1ba"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/cdcf4229-0480-462c-a5cc-41a179229e70",

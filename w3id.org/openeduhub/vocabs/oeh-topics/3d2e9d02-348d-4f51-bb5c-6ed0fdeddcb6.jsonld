@@ -7,6 +7,9 @@
   "definition": {
     "de": "Elektrizität und Magnetismus - zwei auf den ersten Blick sehr unterschiedliche Themen - hängen doch physikalisch betrachtet eng zusammen. Magneten haften an verschiedenen Materialien (und an anderen nicht) - und sind ein beliebtes Kinderspielzeug. Elektrische Geräte und Schaltungen umgeben uns täglich und erleichtern unseren Alltag. Die Physik hilft nicht nur, beide Themenbereiche besser zu verstehen, die elektromagnetische Wechselwirkung ist sogar eine der vier Grundkräfte der Physik."
   },
+  "notation": [
+    "3d2e9d02-348d-4f51-bb5c-6ed0fdeddcb6"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/c5d62d48-fbd3-4454-a9fe-bc37d141f548",

@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Jesus"
   },
+  "notation": [
+    "8d87ef86-bb5e-4dbe-b1ee-8863369b8700"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/d552fa8b-01a3-41ce-b363-aa8745e087ee",

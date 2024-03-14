@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Geographie"
   },
+  "notation": [
+    "f1049950-bdda-45f5-9c73-38b51ea66c74"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/828a1bf2-6943-40c8-878a-20cb94061c2f",

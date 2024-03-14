@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Stadt und Verkehr"
   },
+  "notation": [
+    "91e06f03-f1ad-4057-bbd5-a94361723da2"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/7a064759-c37a-4966-b1e6-09498424c4e0",

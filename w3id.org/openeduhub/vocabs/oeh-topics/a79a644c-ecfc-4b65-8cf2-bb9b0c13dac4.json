@@ -7,6 +7,9 @@
   "definition": {
     "de": "Zu Beginn des Chemieunterrichts geht es in der Regel um die Klärung des Stoffbegriffs sowie um die Eigenschaften chemischer Reaktionen. Denn diese sind mit der Zerstörung von Ausgangsstoffen und der Bildung neuer Stoffe sowie mit einem Energieumsatz verbunden.  Der Anfangsunterricht versucht, diese Grundlagen zu vermitteln."
   },
+  "notation": [
+    "a79a644c-ecfc-4b65-8cf2-bb9b0c13dac4"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5e70f939-765d-47cd-ab24-ea5621baec14",

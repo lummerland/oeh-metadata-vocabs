@@ -7,6 +7,9 @@
   "definition": {
     "de": "Die Aufgaben des Rechnungswesens sind im Wesentlichen: Vorkontierung und Buchung der Eingangsrechnungen. Erstellung von Zahlläufen. Mitarbeit bei Monats- und Jahresabschlüssen. Aufbereitung von Reports und Statistiken. Bearbeitung von Reisekostenabrechnungen."
   },
+  "notation": [
+    "ba08de9c-ac64-4cb2-aa65-f09ae753089d"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5c67ce43-d852-4125-a2bd-6a2c6ca25682",

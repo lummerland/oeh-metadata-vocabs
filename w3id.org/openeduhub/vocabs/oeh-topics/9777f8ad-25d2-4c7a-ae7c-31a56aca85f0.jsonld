@@ -7,6 +7,9 @@
   "definition": {
     "de": "Chemische Bindungen bestimmen die beobachtbaren Eigenschaften der Materie. Es besteht also ein enger Zusammenhang zwischen den beobachtbaren Eigenschaften der Materie und den chemischen Bindungen und Strukturen auf Teilchenebene. Dies gilt sowohl für intramolekulare Bindungen wie die kovalente Bindung und die Ionenbindung als auch für intermolekulare Bindungen wie die Van-der-Waals-Kräfte und die Dipol-Dipol-Wechselwirkung."
   },
+  "notation": [
+    "9777f8ad-25d2-4c7a-ae7c-31a56aca85f0"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/ce676ca8-0810-4348-adf8-14e2f9ad64f8",

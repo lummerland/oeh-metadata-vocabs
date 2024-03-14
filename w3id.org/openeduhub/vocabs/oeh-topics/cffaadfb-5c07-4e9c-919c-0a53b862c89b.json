@@ -7,6 +7,9 @@
   "definition": {
     "de": "Das Wort Grammatik kommt aus dem Altgriechischen  [gramma] und bedeutet übersetzt Buchstabe oder Geschriebenes.  Heute verstehen wir unter Grammatik die Lehre von Wörtern und Sätzen, und wie man Wörter und Wortformen in einer Reihenfolge im Satz verwendet. Die Grammatik ist das Regelsystem einer Sprache. In dieser Sammlung findet ihr Materialien zu Wortbildung und zum Satzbau."
   },
+  "notation": [
+    "cffaadfb-5c07-4e9c-919c-0a53b862c89b"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/96aca699-ebc0-418c-bfc6-e08f44d388f4",

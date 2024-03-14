@@ -7,6 +7,9 @@
   "definition": {
     "de": "Die Praktische Informatik entwickelt grundlegende Konzepte und Methoden zur Lösung konkreter Probleme in der realen Welt.\nNeben der Verwaltung von Daten in Datenstrukturen und der Entwicklung von Software haben dabei die Entwicklung von Algorithmen und die Softwaretechnik einen wichtigen Stellenwert.\nHier findest du auch Informationen zu verschiedenen Programmiersprachen und Entwicklungsumgebungen für deinen Unterricht."
   },
+  "notation": [
+    "c0c475d2-8e1a-477f-a2a2-16f45f70f286"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/3871cf0a-ba39-4457-b710-c585f892beca",

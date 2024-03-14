@@ -4,6 +4,9 @@
   "prefLabel": {
     "de": "Menschsein und die Suche nach Gott"
   },
+  "notation": [
+    "36256da1-fc4a-4f67-bfb0-e0b365697d07"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/aad65591-cd19-488d-bb4b-c4de9dcbf1c4",

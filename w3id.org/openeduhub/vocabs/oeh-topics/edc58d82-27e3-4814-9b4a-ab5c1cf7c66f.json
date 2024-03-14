@@ -7,6 +7,9 @@
   "definition": {
     "de": "Hier findest du alles rund um die französische Grammatik, praktische Übersichten, Arbeitsblätter, digitale Übungen, Lernspiele Erklärvideos und noch vieles mehr."
   },
+  "notation": [
+    "edc58d82-27e3-4814-9b4a-ab5c1cf7c66f"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/5560a33a-e514-404f-be8a-bb5b3bee0235",

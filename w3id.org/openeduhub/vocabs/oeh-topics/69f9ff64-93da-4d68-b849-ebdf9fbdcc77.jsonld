@@ -7,6 +7,9 @@
   "definition": {
     "de": "Beschreibungstext"
   },
+  "notation": [
+    "69f9ff64-93da-4d68-b849-ebdf9fbdcc77"
+  ],
   "narrower": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/oeh-topics/a24eff1e-d4d1-48b7-b67c-a642d14b49b2",

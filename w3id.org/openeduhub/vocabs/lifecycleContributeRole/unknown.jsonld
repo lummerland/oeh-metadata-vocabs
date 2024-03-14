@@ -2,9 +2,14 @@
   "id": "http://w3id.org/openeduhub/vocabs/lifecycleContributeRole/unknown",
   "type": "Concept",
   "prefLabel": {
-    "de": "Herausgeber",
+    "de": "Unbekannt",
     "en": "unknown"
   },
+  "exactMatch": [
+    {
+      "id": "http://w3id.org/openeduhub/vocabs/lom_role/unknown"
+    }
+  ],
   "inScheme": [
     {
       "id": "http://w3id.org/openeduhub/vocabs/lifecycleContributeRole/",

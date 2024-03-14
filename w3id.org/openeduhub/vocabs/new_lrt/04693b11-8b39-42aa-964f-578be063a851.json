@@ -2,10 +2,10 @@
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/04693b11-8b39-42aa-964f-578be063a851",
   "type": "Concept",
   "prefLabel": {
-    "de": "Kollektion, Sammlung und Channel"
+    "de": "Kollektion, Sammlung oder Kanal"
   },
   "definition": {
-    "de": "Zusammenstellung von Inhalten zu einem Thema oder einer Art, z.B. ein Youtube Channel"
+    "de": "Webseite mit einer Sammlung bzw. Zusammenstellung von diversen Materialien zu einem Thema/Fachgebiet oder mit Inhalten und Materialien eines spezifischen Formates (z.B. YouTube-Videos auf einem YouTube-Kanal, Podcast-Folgen eines Podcasts) ohne wesentliche inhaltliche Rahmung"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/3869b453-d3c1-4b34-8f25-9127e9d68766",
@@ -38,9 +38,10 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
+    "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -131,6 +132,18 @@
       "@container": "@set"
     },
     "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

@@ -2,10 +2,10 @@
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/d8c3ef03-b3ab-4a5e-bcc9-5a546fefa2e9",
   "type": "Concept",
   "prefLabel": {
-    "de": "Webseite und Portal (stabil)"
+    "de": "Webseite"
   },
   "definition": {
-    "de": "Webseite oder Portal, das relativ stabile Inhalte für Bildungszwecke anbietet (im Gegensatz zu Blog und Wiki, die oft aktualisiert werden)"
+    "de": "Webseite, die relativ stabile Inhalte für Bildungszwecke anbietet (im Gegensatz zu Blog und Wiki, die oft aktualisiert werden)"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/0cef3ce9-e106-47ae-836a-48f9ed04384e",
@@ -56,9 +56,10 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
+    "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -149,6 +150,18 @@
       "@container": "@set"
     },
     "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

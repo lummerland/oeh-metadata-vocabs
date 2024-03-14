@@ -2,7 +2,7 @@
   "id": "http://w3id.org/openeduhub/vocabs/new_lrt/c022c920-c236-4234-bae1-e264a3e2bdf6",
   "type": "Concept",
   "prefLabel": {
-    "de": "Nachschlagewerk und Glossar"
+    "de": "Nachschlagewerk und Glossareintrag"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/0cef3ce9-e106-47ae-836a-48f9ed04384e",
@@ -53,9 +53,10 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
+    "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -146,6 +147,18 @@
       "@container": "@set"
     },
     "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

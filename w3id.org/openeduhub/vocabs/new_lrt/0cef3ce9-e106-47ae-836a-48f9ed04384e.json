@@ -56,7 +56,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/95f90f7d-0b59-4a1a-be67-7eb3e10b578a",
       "prefLabel": {
-        "de": "Wort- und Vokabellisten"
+        "de": "Wort- und Vokabelliste"
       }
     },
     {
@@ -68,7 +68,7 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/ab5b99ea-551c-42f3-995b-e4b5f469ad7e",
       "prefLabel": {
-        "de": "Primärmaterial und Quelle"
+        "de": "Primärmaterial"
       }
     },
     {
@@ -80,13 +80,13 @@
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/c022c920-c236-4234-bae1-e264a3e2bdf6",
       "prefLabel": {
-        "de": "Nachschlagewerk und Glossar"
+        "de": "Nachschlagewerk und Glossareintrag"
       }
     },
     {
       "id": "http://w3id.org/openeduhub/vocabs/new_lrt/d8c3ef03-b3ab-4a5e-bcc9-5a546fefa2e9",
       "prefLabel": {
-        "de": "Webseite und Portal (stabil)"
+        "de": "Webseite"
       }
     },
     {
@@ -127,9 +127,10 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
+    "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -220,6 +221,18 @@
       "@container": "@set"
     },
     "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

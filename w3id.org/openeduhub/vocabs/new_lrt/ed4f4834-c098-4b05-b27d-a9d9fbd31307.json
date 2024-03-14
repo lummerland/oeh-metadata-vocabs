@@ -5,7 +5,7 @@
     "de": "Hörverstehen"
   },
   "definition": {
-    "de": "Querschnittstypisierung, kann parallel zu Podcast, Sprachlernaudio o.a. getaggt werden. Audio in einer Fremdsprache, um die Äußerung zu verstehen und zu interpretieren."
+    "de": "Querschnittstypisierung, kann parallel zu Podcast, Sprachlernaudio o.a. getaggt werden. Audio in einer Fremdsprache, um die Äußerung zu verstehen und zu interpretieren"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/ec2682af-08a9-4ab1-a324-9dca5151e99f",
@@ -49,9 +49,10 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
+    "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -142,6 +143,18 @@
       "@container": "@set"
     },
     "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

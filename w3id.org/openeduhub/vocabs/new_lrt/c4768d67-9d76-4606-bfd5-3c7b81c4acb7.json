@@ -5,7 +5,7 @@
     "de": "Lerninhalte-Management, Repositorien und Referatorien"
   },
   "definition": {
-    "de": "Software in der Bildungsinhalte verwaltet werden, entweder als Referatorium wo nur Metadaten und Links zum Inhalt redaktionell gepflegt werden, oder als Repositorium wo zusätzlich die Dokumente selbst gespeichert sind."
+    "de": "Software in der Bildungsinhalte verwaltet werden, entweder als Referatorium wo nur Metadaten und Links zum Inhalt redaktionell gepflegt werden, oder als Repositorium wo zusätzlich die Dokumente selbst gespeichert sind"
   },
   "broader": {
     "id": "http://w3id.org/openeduhub/vocabs/new_lrt/512d27e9-0bde-4af2-ba45-d36adffebd71",
@@ -44,9 +44,10 @@
     "@vocab": "http://www.w3.org/2004/02/skos/core#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "dct": "http://purl.org/dc/terms/",
-    "schema": "http://schema.org/",
+    "schema": "https://schema.org/",
     "vann": "http://purl.org/vocab/vann/",
     "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "title": {
       "@id": "dct:title",
       "@container": "@language"
@@ -137,6 +138,18 @@
       "@container": "@set"
     },
     "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    },
+    "url": {
+      "@id": "schema:url",
       "@container": "@set"
     }
   }

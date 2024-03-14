@@ -5,6 +5,11 @@ custom_domain: ""
 fail_on_validation: false
 searchableAttributes:
   - "prefLabel" # you should not delete this one
+  - "notation"
+  - "altLabel"
+  - "hiddenLabel"
+  - "example"
+  - "definition"
 ui:
   title: "OpenEduHub Vocabs" # Title is mandatory
   logo: "skohub-signet-color.svg" # Path

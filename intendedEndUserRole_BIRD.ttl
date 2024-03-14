@@ -15,23 +15,28 @@
 
 <pupil> a skos:Concept ;
   skos:prefLabel "Schüler/in"@de ;
+  skos:related role:learner ;
   skos:topConceptOf <> .
 
 <student> a skos:Concept ;
   skos:prefLabel "Student/in"@de ;
+  skos:related role:learner ;
   skos:topConceptOf <> .
 
 <prospective_student> a skos:Concept ;
   skos:prefLabel "Studieninteressierte/r"@de ;
+  skos:related role:learner ;
   skos:topConceptOf <> .
 
 <prospective_doctoral> a skos:Concept ;
   skos:prefLabel "Promotionsinteressent/in"@de ;
+  skos:related role:learner ;
   skos:topConceptOf <> .
 
 <pasch> a skos:Concept ;
   skos:prefLabel "PASCH-Schüler/in"@de ;
   skos:description "Schüler*innen im Rahmen der Initiative „Schulen: Partner der Zukunft“ (PASCH)"@de ;
+  skos:related role:learner ;
   skos:topConceptOf <> .
 
 <parent> a skos:Concept ;

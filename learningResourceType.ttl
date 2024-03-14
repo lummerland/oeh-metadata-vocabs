@@ -26,7 +26,7 @@
 <application> a skos:Concept ;
     skos:prefLabel "Anwendung/Software"@de ;
     skos:prefLabel "application"@en ;
-    skos:altLabel "Softwareanwendung"@de ;
+    skos:altLabel "Softwareanwendung" ;
     skos:editorialNote "Original LOMv1.0" ;
     skos:exactMatch hcrt:application ;
     skos:topConceptOf <> .

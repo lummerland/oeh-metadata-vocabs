@@ -12,7 +12,7 @@ searchableAttributes:
   - "definition"
 ui:
   title: "OpenEduHub Vocabs" # Title is mandatory
-  logo: "wlo-logo.svg" # Path
+  logo: "wlo-logo.png" # Path
   colors:
     skoHubWhite: "rgb(255, 255, 255)"
     skoHubDarkColor: "rgb(15, 85, 75)"
